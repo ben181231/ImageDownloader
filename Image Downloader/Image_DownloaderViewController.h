@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Image_DownloaderViewController : UIViewController
+@interface Image_DownloaderViewController : UIViewController <NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 
 @end
