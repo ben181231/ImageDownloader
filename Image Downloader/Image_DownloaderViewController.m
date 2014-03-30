@@ -38,7 +38,7 @@
     
     [NSURLConnection connectionWithRequest:
      [NSURLRequest requestWithURL:
-      [NSURL URLWithString:@"http://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"]
+      [NSURL URLWithString:@"http://upload.wikimedia.org/wikipedia/commons/5/53/Le_Louvre_-_Aile_Richelieu.jpg"]
       ]
                                   delegate:self];
 }

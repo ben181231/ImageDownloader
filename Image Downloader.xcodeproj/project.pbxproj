@@ -21,6 +21,7 @@
 		E99BEF0318E8174300E87190 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99BEEE518E8174300E87190 /* UIKit.framework */; };
 		E99BEF0B18E8174300E87190 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E99BEF0918E8174300E87190 /* InfoPlist.strings */; };
 		E99BEF0D18E8174300E87190 /* Image_DownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99BEF0C18E8174300E87190 /* Image_DownloaderTests.m */; };
+		E9CAD25718E8674600B92136 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CAD25618E8674600B92136 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E99BEF0818E8174300E87190 /* Image DownloaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image DownloaderTests-Info.plist"; sourceTree = "<group>"; };
 		E99BEF0A18E8174300E87190 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E99BEF0C18E8174300E87190 /* Image_DownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_DownloaderTests.m; sourceTree = "<group>"; };
+		E9CAD25618E8674600B92136 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CAD25718E8674600B92136 /* CoreData.framework in Frameworks */,
 				E99BEEE418E8174300E87190 /* CoreGraphics.framework in Frameworks */,
 				E99BEEE618E8174300E87190 /* UIKit.framework in Frameworks */,
 				E99BEEE218E8174300E87190 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		E99BEEE018E8174300E87190 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E9CAD25618E8674600B92136 /* CoreData.framework */,
 				E99BEEE118E8174300E87190 /* Foundation.framework */,
 				E99BEEE318E8174300E87190 /* CoreGraphics.framework */,
 				E99BEEE518E8174300E87190 /* UIKit.framework */,
@@ -334,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -366,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -380,6 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Downloader/Image Downloader-Prefix.pch";
 				INFOPLIST_FILE = "Image Downloader/Image Downloader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Downloader/Image Downloader-Prefix.pch";
 				INFOPLIST_FILE = "Image Downloader/Image Downloader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +463,7 @@
 				E99BEF1218E8174300E87190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E99BEF1318E8174300E87190 /* Build configuration list for PBXNativeTarget "Image DownloaderTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				E99BEF1518E8174300E87190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
