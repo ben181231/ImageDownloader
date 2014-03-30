@@ -33,8 +33,8 @@
     [self.downloadProgressView setProgress:0];
     [self.downloadProgressView setHidden:NO];
     [self.imageData setData:nil];
+    [self.displayImageView setImage:nil];
     [sender setEnabled:NO];
-    
     
     [NSURLConnection connectionWithRequest:
      [NSURLRequest requestWithURL:
